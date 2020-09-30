@@ -20,8 +20,9 @@ The workspace contains two folders by default, where:
 
 The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
 
-build:
-    javac -cp ".;..\lib\hamcrest-core-1.3.jar;..\lib\junit-4.13.jar" .\app\App.java .\app\test\TestRunner.java
-run:
-    java -cp ".;..\lib\hamcrest-core-1.3.jar;..\lib\junit-4.13.jar" app.test.TestRunner
+## Build & Run
+    * build:
+        javac -cp ".;..\lib\hamcrest-core-1.3.jar;..\lib\junit-4.13.jar" .\app\App.java .\app\test\TestRunner.java
+    * run:
+        java -cp ".;..\lib\hamcrest-core-1.3.jar;..\lib\junit-4.13.jar" app.test.TestRunner
 
