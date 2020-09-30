@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 import java.util.Arrays;
 
 @RunWith(Parameterized.class)
-public class TestJUnit {
+public class TestJUnitBVA {
 
     private int inputA, inputB, inputC;
     private int expected;
@@ -18,26 +18,25 @@ public class TestJUnit {
     @Parameters
     public static Iterable<Object[]> data()  {
         return Arrays.asList(new Object[][] {
-            {5, 5, 5, 0},
-            {0, 0, 0, 4},
-            {-4, -4, -4, 4},
-            {7, 7, 4, 1},
-            {2, 2, 0, 4},
-            {4, 4, -3, 4},
-            {-3, -3, 2, 4},
-            {0, 0, 5, 4},
-            {3, 6, 8, 2},
-            {3, 4, 5, 2},
-            {2, 3, 7, 3},
-            {1, 0, 2, 4},
-            {1, -3, 2, 4},
-            {-1, 0, 2, 4},
-            {-1, -1, 5, 4},
-            {0, 0, 2, 4},
-            {-6, 0, 0, 4}
+            {30, 40, 50, 2},
+            {1, 1, 3, 3},
+            {1, 10, 1, 3},
+            {20, 1, 1, 3},
+            {1, 1, 1, 0},
+            {2, 3, 4, 2},
+            {2, 2, 11, 3},
+            {2, 15, 3, 3},
+            {10, 3, 2, 3},
+            {100, 100, 50, 1},
+            {100, 70, 100, 1},
+            {5, 100, 100, 1},
+            {100, 100, 100, 0},
+            {98, 99, 40, 2},
+            {99, 60, 90, 2},
+            {65, 97, 95, 2}
         });
     }
-    public TestJUnit(int inputA, int inputB, int inputC, int expected) {
+    public TestJUnitBVA(int inputA, int inputB, int inputC, int expected) {
         this.inputA = inputA;
         this.inputB = inputB;
         this.inputC = inputC;
