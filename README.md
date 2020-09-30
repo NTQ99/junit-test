@@ -1,3 +1,10 @@
+## Member
+
+    1.	Nguyễn Phương Hằng – 17021241
+    2.	Lưu Hoài Linh – 17021284
+    3.	Nguyễn Tuấn Quốc – 17021326
+
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
